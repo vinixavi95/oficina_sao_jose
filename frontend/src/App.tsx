@@ -1,5 +1,5 @@
 import type { Component } from 'solid-js';
-
+import Componenteteste from './componentes/componenteteste';
 import logo from './logo.svg';
 import styles from './App.module.css';
 
@@ -8,6 +8,7 @@ const App: Component = () => {
     <div class={styles.App}>
       <header class={styles.header}>
         <img src={logo} class={styles.logo} alt="logo" />
+        <Componenteteste />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
